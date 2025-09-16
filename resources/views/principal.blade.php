@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Etec ZL</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -25,44 +25,44 @@
         <header class="w-full lg:max-w-4xl max-w-[335px] text-sm ms-80 mb-6 not-has-[nav]:hidden text-[#1b1b18]">
                 <nav class="flex items-center justify-center gap-4">
                         <a
-                            href=""
+                            href="{{ route('principal') }}"
                             class="inline-block px-5 py-1.5 text-red-800 border border-transparent hover:border-[#19140035] rounded-sm text-sm leading-normal"
                         >
-                            Dashboard
+                            Principal
                         </a>
-                            <a
-                                href=""
+                        <a
+                                href="{{ route('contato') }}"
                                 class="inline-block px-5 py-1.5 text-red-800 border border-transparent hover:border-[#19140035] rounded-sm text-sm leading-normal">
                                 Contato
-                            </a>
+                        </a>
 
                 </nav>
         </header>
         <section class="bg-red-800 text-white text-center py-20">
-    <div class="max-w-4xl mx-auto px-6">
-      <h2 class="text-4xl font-bold mb-4">Bem-vindo à ETEC Zona Leste</h2>
-      <p class="text-lg mb-6">Formando profissionais para o futuro com excelência em ensino técnico e inovação.</p>
-      <a href="#" class="bg-white text-red-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Saiba Mais</a>
-    </div>
-  </section>
+            <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-4">Bem-vindo à ETEC Zona Leste</h2>
+            <p class="text-lg mb-6">Formando profissionais para o futuro com excelência em ensino técnico e inovação.</p>
+            <a href="#" class="bg-white text-red-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Saiba Mais</a>
+            </div>
+        </section>
 
-  <!-- Seção de Informações -->
-  <section class="py-16 px-6 bg-white">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center">
-      <div class="shadow-lg p-6 rounded-lg hover:shadow-xl transition">
-        <h3 class="text-xl font-semibold mb-2 text-red-800">Ensino de Qualidade</h3>
-        <p>Professores capacitados e estrutura moderna para proporcionar o melhor aprendizado.</p>
-      </div>
-      <div class="shadow-lg p-6 rounded-lg hover:shadow-xl transition">
-        <h3 class="text-xl font-semibold mb-2 text-red-800">Cursos Técnicos</h3>
-        <p>Oferecemos cursos atualizados nas áreas de tecnologia, administração e mais.</p>
-      </div>
-      <div class="shadow-lg p-6 rounded-lg hover:shadow-xl transition">
-        <h3 class="text-xl font-semibold mb-2 text-red-800">Infraestrutura</h3>
-        <p>Laboratórios, biblioteca e espaços de convivência que favorecem o desenvolvimento dos alunos.</p>
-      </div>
-    </div>
-  </section>
+        <!-- Seção de Informações -->
+        <section class="py-16 px-6 bg-white">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+            <div class="shadow-lg p-6 rounded-lg hover:shadow-xl transition">
+                <h3 class="text-xl font-semibold mb-2 text-red-800">Ensino de Qualidade</h3>
+                <p>Professores capacitados e estrutura moderna para proporcionar o melhor aprendizado.</p>
+            </div>
+            <div class="shadow-lg p-6 rounded-lg hover:shadow-xl transition">
+                <h3 class="text-xl font-semibold mb-2 text-red-800">Cursos Técnicos</h3>
+                <p>Oferecemos cursos atualizados nas áreas de tecnologia, administração e mais.</p>
+            </div>
+            <div class="shadow-lg p-6 rounded-lg hover:shadow-xl transition">
+                <h3 class="text-xl font-semibold mb-2 text-red-800">Infraestrutura</h3>
+                <p>Laboratórios, biblioteca e espaços de convivência que favorecem o desenvolvimento dos alunos.</p>
+            </div>
+            </div>
+        </section>
 
   <!-- Rodapé -->
   <footer class="bg-red-800 text-white py-6 mt-12">
@@ -70,5 +70,5 @@
       <p>&copy; 2025 ETEC Zona Leste. Todos os direitos reservados.</p>
     </div>
   </footer>
-    </body>
+</body>
 </html>
