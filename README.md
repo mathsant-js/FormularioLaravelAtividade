@@ -66,6 +66,12 @@ ___Atenção! Caso você não tenha o MySQL instalado na sua máquina o projeto 
 
 <img width="1376" height="488" alt="image" src="https://github.com/user-attachments/assets/38ee271a-4094-4c54-81ac-a0b3f75514e5" />
 
+## Routes
+
+O arquivo ```web.php``` define quais são as rotas das páginas do projeto. No arquivo abaixo você poderá ver todas as rotas do projeto:
+
+![Código das rotas do projeto](public/printsAtividade/codeRoutes.png)
+
 ## Layouts das telas
 
 Aqui você pode ver como ficaram as telas do site, podendo ver o seu layout. Também terá a print dos códigos.
@@ -109,6 +115,31 @@ Os controllers do projeto foram contruídos de maneira simples, basicamente no `
     <img src="public/printsAtividade/codeContatoController.png">
     <p>Contato Controller</p>
 </div>
+
+## Rota Fallback
+
+A rotafallback serve para quando alguma url for digitada incorretamente dentro da nossa página, o laravel direcione a alguma página específica de erro. Veja abaixo a tela de fallback:
+
+<div align="center">
+    <img src="public/printsAtividade/fallback.png" alt="Página de erro 404">
+    <p>Tela de Fallback</p>
+    <br>
+    <img src="public/printsAtividade/codeTelaFallback.png" alt="Código da Tela de Fallback">
+    <p>Código da Tela de Fallback</p>
+    <br>
+    <img src="public/printsAtividade/codeNotFoundController.png" alt="Código do Controller do Fallback">
+    <p>Código do Controller Fallback</p>
+</div>
+
+## Var_dump na prática
+
+Agora preencheremos o nosso formulário com as informações necessárias para ver se as mesmas são capturadas de maneira correta.
+
+![Campos preenchidos para o teste do var_dump](public/printsAtividade/image.png)
+
+- Clicando no botão enviar veremos se as informações foram capturadas
+
+![var_dump funcionando com as informações dos campos preenchidos anteriormente](public/printsAtividade/image-1.png)
 
 -----------
 

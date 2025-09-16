@@ -70,7 +70,7 @@
             </div>
             <div class="pt-4">
                 <button type="submit" 
-                class="w-full bg-red-800 text-white font-semibold py-2 rounded-lg shadow hover:bg-blue-700 transition">
+                class="w-full bg-red-800 text-white font-semibold py-2 rounded-lg shadow hover:bg-red-900 transition">
                 Enviar
                 </button>
             </div>
