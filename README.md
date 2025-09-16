@@ -76,7 +76,7 @@ Aqui você pode ver como ficaram as telas do site, podendo ver o seu layout. Tam
     <img width="1915" height="936" alt="image" src="https://github.com/user-attachments/assets/b002bbef-e46b-4f67-a03e-478e43bd0645" />
     <p>Tela Principal</p>
     <br>
-    ![Código da Tela Principal]()
+    <img src="public/printsAtividade/codePrincipalTela.png">
     <p>Código da Tela Principal</p>
 </div>
 
@@ -86,18 +86,19 @@ Aqui você pode ver como ficaram as telas do site, podendo ver o seu layout. Tam
     <img width="1915" height="936" alt="image" src="https://github.com/user-attachments/assets/ed1af67e-694e-4656-ab01-757a038d0bfb" />
     <p>Tela Contato</p>
     <br>
-    ![Código da Tela Contato]()
+    <img src="public/printsAtividade/codeContatoTela.png">
     <p>Código da Tela Contato</p>
 </div>
 
 ## Controllers
 
-Aqui você poderá ver como os controllers do projeto foram desenvolvidos para atender os requisitos da atividade.
+Os controllers do projeto foram contruídos de maneira simples, basicamente no ```PrincipalController.php``` foi criada uma função index para retornar a view indicada, na ```ContatoController.php``` tem a mesma função com a diferença de que foi adicionado um ```var_dump($_GET)``` que basicamente pega o valor que o método _GET_ recebe, embaixo a view retorna com o valor do ```var_dump```. Abaixo você poderá ver como os controllers do projeto foram desenvolvidos para atender os requisitos da atividade.
+
 
 #### Principal Controller
 
 <div align="center">
-    ![PrincipalController.php]()
+    <img src="public/printsAtividade/codePrincipalController.png">
     <p>Principal Controller</p>
 </div>
 
@@ -105,7 +106,7 @@ Aqui você poderá ver como os controllers do projeto foram desenvolvidos para a
 
 
 <div align="center">
-    ![ContatoController.php]()
+    <img src="public/printsAtividade/codeContatoController.png">
     <p>Contato Controller</p>
 </div>
 
