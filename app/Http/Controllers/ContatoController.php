@@ -9,6 +9,7 @@ class ContatoController extends Controller
 {
     public function index(): FactoryView|ContractView
     {
-        return view('contato');
+        var_dump($_GET);
+        return view('contato', ['titulo' => 'Contato (teste)']);
     }
 }

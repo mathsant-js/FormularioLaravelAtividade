@@ -36,8 +36,8 @@
     <div class="min-h-screen bg-gray-100 flex items-center justify-center p-6">
     <div class="w-full max-w-lg bg-white rounded-2xl shadow-lg p-8">
             <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Formulário de Contato</h2>
-    
-        <form action="#" method="POST" class="space-y-4">
+    @section('titulo', $titulo)
+        <form action="{{ route('contato') }}" method="get" class="space-y-4">
             <div>
                 <label for="nome" class="block text-sm font-medium text-gray-700">Nome</label>
                 <input type="text" id="nome" name="nome" 
